@@ -61,10 +61,10 @@ public class ClientDemo {
      * Get server URL from user or use default
      */
     private String getServerUrl(Scanner scanner) {
-        System.out.print("Enter server URL (default: http://localhost:9090/bus-ticketer-service): ");
+        System.out.print("Enter server URL (default: http://localhost:9090/bus-ticket-service): ");
         String url = scanner.nextLine().trim();
         if (url.isEmpty()) {
-            url = "http://localhost:9090/bus-ticketer-service";
+            url = "http://localhost:9090/bus-ticket-service";
         }
         System.out.println("Using server: " + url + "\n");
         return url;

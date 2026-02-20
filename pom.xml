@@ -6,12 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.busticket</groupId>
-    <artifactId>bus-ticketer-client</artifactId>
+    <artifactId>bus-ticket-client</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Bus Ticketer Client</name>
-    <description>Java-based REST Client for Bus Ticketer Service</description>
+    <name>Bus Ticket Client</name>
+    <description>Java-based REST Client for Bus Ticket Service</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
